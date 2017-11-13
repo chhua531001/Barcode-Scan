@@ -120,7 +120,6 @@
 				TargetAttributes = {
 					687B60961F3C021B009FDD90 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 69239AZER7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -287,11 +286,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 69239AZER7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = QRScan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosDevcenter.QRScan;
+				PRODUCT_BUNDLE_IDENTIFIER = ioio.haha.xxxx.QRScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -301,11 +300,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 69239AZER7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = QRScan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosDevcenter.QRScan;
+				PRODUCT_BUNDLE_IDENTIFIER = ioio.haha.xxxx.QRScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
