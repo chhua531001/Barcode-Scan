@@ -20,10 +20,18 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     // MARK: - View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewPreview.layer.cornerRadius = 5;
-        btnStartStop.layer.cornerRadius = 5;
+        viewPreview.layer.cornerRadius = 5
+        btnStartStop.layer.cornerRadius = 5
         captureSession = nil;
-        lblString.text = "Barcode discription...";
+        lblString.text = "Barcode discription..."
+        
+        let when = DispatchTime.now() + 1 // change 1 to desired number of seconds
+        DispatchQueue.main.asyncAfter(deadline: when) {
+            // Your code with delay
+            
+            self.startReading()
+        }
+
     }
 
     override func didReceiveMemoryWarning() {
