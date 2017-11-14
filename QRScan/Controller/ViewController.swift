@@ -25,12 +25,14 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         captureSession = nil;
         lblString.text = "Barcode discription..."
         
-        let when = DispatchTime.now() + 1 // change 1 to desired number of seconds
-        DispatchQueue.main.asyncAfter(deadline: when) {
-            // Your code with delay
-            
-            self.startReading()
-        }
+        
+//        //delay 1 sec讓系統可以Ready後，再開始使用
+//        let when = DispatchTime.now() + 1 // change 1 to desired number of seconds
+//        DispatchQueue.main.asyncAfter(deadline: when) {
+//            // Your code with delay
+//            
+//            self.startReading()
+//        }
 
     }
 
